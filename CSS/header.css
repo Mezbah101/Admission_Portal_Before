@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .top-header {
-    
-    height: 160px; 
+
+
     background-color: #222555;
-    border-bottom: 5px solid #0518e5;
+    border-bottom: 5px solid #126225;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(29, 34, 102) 74%);
 
 }
@@ -20,73 +25,133 @@
     list-style: none;
     justify-content: flex-start;
     align-items: flex-end;
-   
+
 }
 
 .top-header ul li a {
     text-decoration: none;
     list-style: none;
     color: white;
-    
+    display: inline-block;
+
 
 }
+
+.top-header ul li a::after {    
+    content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff00;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  }
+  /* .top-header ul li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  } */
+
 /* login button */
 
-.top-header ul li button{
+.top-header ul li button {
 
-    color: whitesmoke;
+    color: white;
     background-color: rgb(19, 23, 93);
     text-decoration: none;
-    padding: 15px;
+    padding: 1em;
     margin-bottom: 20px;
     margin-left: 30px;
     display: block;
-    margin: 1px solid blue;
     border-radius: 5px;
-   
-   
-}
+    border: 1px solid white;
 
-.top-header ul li button:hover{
 
-   color: red;
-   outline: none;
 
 
 }
 
+/* .top-header ul li button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(190, 169, 169, 0.09) 0px -3px 5px;
+    animation-name: loginbtn;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 
- /* nVIGtion bar */
 
- 
-.top-nav{
+
+} */
+
+@keyframes loginbtn {
+    0% {
+        border-bottom: 3px solid red;
+        border-top: 3px solid red;
+        
+       
+    }
+
+    25% {
+        border-bottom: 3px solid yellow;
+        border-top: 3px solid yellow;
+        
+        
+    }
+
+    50% {
+      border-bottom: 3px solid green;
+      border-top: 3px solid green;
+    }
+
+    75% {
+        
+        border-top: 3px solid skyblue;
+        border-bottom: 3px solid skyblue;
+    }
+
+    100% {
+        border-top: 3px solid yellow;
+        border-bottom: 3px solid yellow;
+        
+    }
+
+
+}
+
+
+/* nVIGtion bar */
+
+
+.top-nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 
     color: white;
 }
-.top-nav nav ul li a{
+
+.top-nav nav ul li a {
 
     color: black;
     text-decoration: none;
     font-size: 18PX;
     font-weight: 600;
-    
-}
-.top-nav ul li{
 
- list-style: none;
- padding-right: 20px;
- border-right: 3px solid rgba(1, 9, 3, 0.25);
+}
+
+.top-nav ul li {
+
+    list-style: none;
+    padding-right: 20px;
+    border-right: 3px solid rgba(1, 9, 3, 0.25);
 
 }
 
 .top-nav ul {
-   
-   
+
+
     padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 
     background-color: white;
@@ -95,15 +160,15 @@
 
 /* Carousel Part */
 
-.carousel-inner{
-    height: 60vh;
-    width: auto;}
- 
-
-.carousel-item img{
-    height: 60vh;
-    
+.carousel-inner {
+    height: 70vh;
+    width: auto;
+    text-decoration: none;
 }
 
 
+.carousel-item img {
+    
+height: 70vh;
+}
 

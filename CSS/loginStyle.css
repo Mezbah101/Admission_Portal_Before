@@ -1,5 +1,7 @@
 body {
     background-color: #222555;
+    font-family: 'Raleway';
+  
 }
 
 .container {
@@ -7,45 +9,48 @@ body {
     width: 50%;
     border-radius: 25px;
     padding: 20px;
-    background-color: #373b6f;
+    background-color: rgb(238, 230, 230);
 }
 
 .container label {
-    display: none;
+    /* display: none; */
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f172a;
+  
 }
 
 .container input {
     width: 100%;
-    margin: 5px 0;
-    padding: 12px 0;
-    background-color: inherit;
+   
+    padding: 8px 0;
+    background-color: rgb(238, 230, 230);
     border: none;
-    border-bottom: 1px solid grey;
-    color: white;
+    border-bottom: 1px solid black;
+    color: black;
 }
 
 .container input:focus {
     outline: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 .container select {
-    margin: 5px 0;
+    /* margin: 5px 0; */
+    margin-right: 5px;
     width: 100%;
     background-color: inherit;
-    color: white;
+    color: black;
     border: none;
     border-bottom: 1px solid grey;
     padding: 12px 0;
+    font-weight: 500;
 }
 
-.container button {
-    border: 0;
-    border-radius: 2px;
-    background-color: #1e3a8a;
-    color: white;
-    padding: 12px 20px;
-    margin: 5px 0;
+.btn button {
+  padding: 10px;
+  margin-top: 20px;
+ 
 }
 
 .navbar {
@@ -81,6 +86,7 @@ body {
 .navbar li a:hover {
     background-color: #1e3a8a;
     color: white;
+
 }
 
 
@@ -88,4 +94,9 @@ body {
     background-color: #04AA6D;
     color: white;
 }
+
+.notices{
+    background-color:#1e3a8a;
+}
+ 
 

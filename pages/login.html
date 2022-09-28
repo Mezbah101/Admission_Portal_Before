@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SignIn</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="logos/unilogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/loginStyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src='main.js'></script>
+    <style>
+    </style>
+</head>
+<body>
+<!-- Side Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="signup.html" class="active">Sign Up</a></li>
+      <li><a href="signup.html" class="notices">Notices +</a></li>
+      <li><a href="signup.html" class="steps">STEPS</a></li>
+    </ul>
+  </div>
+
+  <!-- login form -->
+   
+  <form>  
+    <div class="container">    
+      <label>Name:</label>   
+      <input type="text" name="Name" placeholder= "" size="50">
+      <label>SSC ROLL:</label>  
+      <input type="text" inputmode="numeric" name="SSC ROLL" placeholder="" size="40">
+      <label>SSC Reg:</label>
+      <input type="text" inputmode="numeric" name="SSC Reg" placeholder="" size="40">
+      <label>GPA:</label>
+      <input type="text" inputmode="numeric" name="SSC GPA" placeholder="" size="40">
+      <label>SSC Passing Year:</label> 
+      <select id="HSC GROUP">
+        <option value="2020" selected>2020</option>  
+        <option value="2021">2021</option>   
+      </select><br>
+      
+      <label for="SSC GROUP">SSC Group:</label>
+      <select id="sscGroup">
+        <option value="" selected>--Choose Your SSC Group--</option>
+        <option value="Arts">Arts</option>  
+        <option value="Science">Science</option>  
+        <option value="Commerce">Commerce</option>  
+      </select>
+      <label>HSC ROLL:</label>  
+      <input type="text" inputmode="numeric" name="HSC ROLL" placeholder="" size="40">
+      <label>HSC Reg:</label>  
+      <input type="text" inputmode="numeric" name="HSC Reg" placeholder="" size="40">
+      <label>GPA:</label>  
+      <input type="text" inputmode="numeric" name="HSC GPA" placeholder="" size="40">
+      <label>HSC Passing Year:</label> 
+      <select id="HSC GROUP">
+        <option value="2020" selected>2022</option>  
+        <option value="2021">2023</option>   
+      </select><br>
+      <label for="HSC GROUP">HSC Group:</label>
+      <select id="sscGroup">
+        <option value="" >--Choose Your SSC Group--</option>
+        <option value="Arts">Arts</option>  
+        <option value="Science">Science</option>  
+        <option value="Commerce">Commerce</option>  
+      </select>
+      <a class="" href="/pages/basic.html"> <button> Submit </button> </a>
+    </div>
+  </form>
+ 
+</body>
+</html>
