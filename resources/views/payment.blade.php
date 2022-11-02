@@ -32,6 +32,9 @@
             <div><img src="/frontend/logos/DBBL-Rocket-Vector-Logo.jpg" alt=""></div>
             <div><img src="/frontend/logos/Nagad-Logo.wine.png" alt=""></div>
         </div>
+        <div>
+            <button style="text-decoration:none"> Submit </button>
+        </div>
     </section>
 </body>
 

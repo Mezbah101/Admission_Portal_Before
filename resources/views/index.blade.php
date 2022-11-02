@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="images/card-fms.jpg" class="card-img-top" alt="...">
+                        <img src="/frontend/images/card-fms.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Faculty of Medical Science</h5>
                             <p class="card-text">Faculty of Medical Science is a renowed faculty of this University</p>
