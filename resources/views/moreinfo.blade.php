@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Info for students</title>
+    <script src="https://kit.fontawesome.com/69cdb25138.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/frontend/CSS/moreinfo.css">
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html" class="active">Sign Up</a></li>
+                <li><a href="signup.html" class="notices">Notices +</a></li>
+                <li><a href="signup.html" class="steps">STEPS</a></li>
+                <li><a href="">Basic Information</a></li>
+                <li><a href="">Academic Information </a></li>
+                <li><a href="">Personal Info </a></li>
+
+            </ul>
+        </div>
+        <div class="info-sec">
+            <h1>Candidate's Information</h1>
+            <div class="personal-info">
+
+                <h2>Personal Information</h2>
+                <table>
+                    <form action="">
+                        <tr>
+                            <td><label for="">Present Address </label></td>
+                            <td><input type="tel" name="" id=""></td>
+                            <td><label for="">Permanent Address</label></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Present District</label></td>
+                            <td><select name="" id="">
+                                    <option value="">-- Select One --</option>
+                            </td>
+                            <td><label for="">Home District</label></td>
+                            <td><select name="" id="">
+                                    <option value="">-- Select One --</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Gender</label> </td>
+                            <td><select name="" id="">
+                                    <option value="">Male</option>
+                                </select></td>
+                            <td>Religion</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Blood Group</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td>Nationality</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+            <div class="parents-info">
+                <h1> Parents Information</h1>
+                <div class="parent-info">
+                    <div class="father-info">
+                        <h2>Father's Information</h2>
+                        <table>
+                            <form action="">
+                                <tr>
+                                    <td><label for="">Present Address </label></td>
+                                    <td><input type="tel" name="" id=""></td>
+                                    <td><label for="">Permanent Address</label></td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Present District</label></td>
+                                    <td><select name="" id="">
+                                            <option value="">-- Select One --</option>
+                                    </td>
+                                    <td><label for="">Home District</label></td>
+                                    <td><select name="" id="">
+                                            <option value="">-- Select One --</option>
+                                        </select></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Gender</label> </td>
+                                    <td><select name="" id="">
+                                            <option value="">Male</option>
+                                        </select></td>
+                                    <td>Religion</td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Blood Group</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td>Nationality</td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+                            </form>
+                        </table>
+                    </div>
+                    <div class="mother-info">
+                        <h2>Mother's Information</h2>
+                        <table>
+                            <form action="">
+                                <tr>
+                                    <td><label for="">Present Address </label></td>
+                                    <td><input type="tel" name="" id=""></td>
+                                    <td><label for="">Permanent Address</label></td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Present District</label></td>
+                                    <td><select name="" id="">
+                                            <option value="">-- Select One --</option>
+                                    </td>
+                                    <td><label for="">Home District</label></td>
+                                    <td><select name="" id="">
+                                            <option value="">-- Select One --</option>
+                                        </select></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="">Gender</label> </td>
+                                    <td><select name="" id="">
+                                            <option value="">Male</option>
+                                        </select></td>
+                                    <td>Religion</td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Blood Group</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td>Nationality</td>
+                                    <td><input type="text" name="" id=""></td>
+                                </tr>
+
+                            </form>
+
+                        </table>
+
+                    </div>
+
+                </div>
+                <a href="{{url('upload')}}"><input
+                        style="padding: 10px 20px; margin-top: 30px; margin-bottom:40px;border-radius: 10px; border:2px solid wheat" type="button"
+                        value="Next"></a>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
