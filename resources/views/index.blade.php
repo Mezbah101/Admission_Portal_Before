@@ -50,7 +50,7 @@
                 <ul>
                     <li> <a href="">Home</a></li>
                     <li><a href="#noticeid">Notices</a></li>
-                    <li><a href="#facultyid""> Faculties</a> </li>
+                    <li><a href="#facultyid"> Faculties</a> </li>
                     <li> <a href=" #applyid">How To Apply</a> </li>
                 </ul>
             </nav>
@@ -180,7 +180,7 @@
 
                 <div class="card-group">
                     <div class="card">
-                        <img src="images/card-fst.jpg" class="card-img-top" alt="...">
+                        <img src="/frontend/images/card-fst.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Facult of Science & Technology</h5>
                             <p class="card-text">Faculty of Science and Technology (FST) started as Faculty of Technical
