@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Files</title>
     <link rel="stylesheet" href="/frontend/CSS/upload.css">
-    <link rel="shortcut icon" href="/logos/unilogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/frontend/logos/unilogo.png" type="image/x-icon">
 </head>
 <body>
     <section>
@@ -18,7 +18,7 @@
                 <li><a href="signup.html" class="steps">STEPS</a></li>
                 <li><a href="">Basic Information</a></li>
                 <li><a href="">Academic Information </a></li>
-                <li><a href="">Upload Attachment </a></li>
+                <li style="background-color:green;"><a href="">Upload Attachment </a></li>
                 <li><a href="{{url('payment')}}">Next</a></li>
 
             </ul>
